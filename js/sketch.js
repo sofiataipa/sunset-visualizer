@@ -22,7 +22,7 @@ let colWidthm, chartHeight, chartHeightStart;
 function setup() {
   updateCanvas();
 
-  londonColor = color("#0a9396");
+  londonColor = color("#973AA8");
   lisbonColor = color("#ee9b00");
 
   let londonURLs = getURLs(LONDON_LAT, LONDON_LNG);
