@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  position: relative;
+}
+nav
+{
+    color: white;
+    padding:10px 3%;
+    letter-spacing: normal;
+    font-family: Verdana, sans-serif;
+}
+
+button{
+  background-color:  #e9c46a;
+  border: solid 1px  #e9c46a;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin:0 auto;
+  font-size: 12px;
+  min-width: 200px;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+button:hover{
+  background-color:white;
+  color:  #e9c46a;
+  font-style: italic;
+}
+
+#canvas-container
+{
+  margin-bottom: 3em;
+}
